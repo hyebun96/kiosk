@@ -1,4 +1,4 @@
-#  :bookmark: kiosk
+#  ✏ kiosk
 
 사용자가 편리하게 이용할 수 있는 UI 스터디 카페 키오스크<br/>
 관리자가 사용자 정보를 효율적으로 관리할 수 있는 UI 스터디 카페 키오스크
@@ -9,6 +9,8 @@
 ![image](https://user-images.githubusercontent.com/58923654/90387267-d6c81180-e0c0-11ea-9d68-95fe178d145f.png)
 
 ![image](https://user-images.githubusercontent.com/58923654/90387270-d9c30200-e0c0-11ea-86a0-585c2191d1c9.png)
+![image](https://user-images.githubusercontent.com/58923654/90389433-8ce12a80-e0c4-11ea-9df0-80a1bd01a535.png)
+
 
 
 ## 참고사이트
