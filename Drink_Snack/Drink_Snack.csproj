@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A5385EBB-6C76-49D9-ACD9-477B68159ADC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp2</RootNamespace>
+    <AssemblyName>WindowsFormsApp2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.16.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Order_Bills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order_Bills.Designer.cs">
+      <DependentUpon>Order_Bills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Changer.cs" />
+    <Compile Include="DrinkDAO.cs" />
+    <Compile Include="Note.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Note.Designer.cs">
+      <DependentUpon>Note.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order.Designer.cs">
+      <DependentUpon>Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order_Admin.Designer.cs">
+      <DependentUpon>Order_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SetC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetC.Designer.cs">
+      <DependentUpon>SetC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetD.Designer.cs">
+      <DependentUpon>SetD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zapangi.cs" />
+    <EmbeddedResource Include="Order_Bills.resx">
+      <DependentUpon>Order_Bills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Note.resx">
+      <DependentUpon>Note.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order.resx">
+      <DependentUpon>Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order_Admin.resx">
+      <DependentUpon>Order_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SetC.resx">
+      <DependentUpon>SetC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetD.resx">
+      <DependentUpon>SetD.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\꾸이꾸이.jpg" />
+    <None Include="Resources\빼빼로.jpg" />
+    <None Include="Resources\물.png" />
+    <None Include="Resources\아이스쿨.png" />
+    <None Include="Resources\새우깡.png" />
+    <None Include="Resources\숏다리.png" />
+    <Content Include="Resources\알로에쥬스.png" />
+    <Content Include="Resources\웰치스.png" />
+    <Content Include="Resources\커피.png" />
+    <Content Include="Resources\콜라.png" />
+    <None Include="Resources\허니버터칩.png" />
+    <None Include="Resources\프링글스.png" />
+    <None Include="Resources\하리보.png" />
+    <Content Include="Resources\환타.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
