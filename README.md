@@ -4,16 +4,16 @@
 <br/>
 
 ## 구현 화면
-### - 메인 Form
+### 메인 Form
 ![image](https://user-images.githubusercontent.com/58923654/90387257-d2035d80-e0c0-11ea-97e8-9b2231caae9e.png)
 <br/>
 
-### - 사용자 Form
+### 사용자 Form
 ![image](https://user-images.githubusercontent.com/58923654/90387263-d596e480-e0c0-11ea-8866-73cfb792770e.png)
 ![image](https://user-images.githubusercontent.com/58923654/90387267-d6c81180-e0c0-11ea-9d68-95fe178d145f.png)
 <br/>
 
-### - 관리자 Form
+### 관리자 Form
 ![image](https://user-images.githubusercontent.com/58923654/90387270-d9c30200-e0c0-11ea-86a0-585c2191d1c9.png)
 ![image](https://user-images.githubusercontent.com/58923654/90389433-8ce12a80-e0c4-11ea-9df0-80a1bd01a535.png)
 
